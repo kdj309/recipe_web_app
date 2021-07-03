@@ -1,0 +1,93 @@
+.receipecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 0.6rem;
+    gap: 0.5rem;
+}
+.search_and_sorting{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+  height: max-content;
+  gap: 0.5rem;
+}
+@media (min-width: 400px) {
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  html {
+    font-size: 13.5px;
+  }
+  .imgcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .imgcontainer > img {
+    object-fit: contain;
+    width: 20rem;
+    height: 22rem;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 768px) {
+  html {
+    font-size: 14.5px;
+  }
+  .receipecontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  .Maincontainer {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-left: auto;
+    max-width: 100%;
+  }
+  .imgcontainer > img {
+    object-fit: contain;
+    width: 15rem;
+    height: 20rem;
+  }
+  .search_and_sorting{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    height: max-content;
+    gap: 0.5rem;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  html {
+    font-size: 15.5px;
+  }
+  .imgcontainer > img {
+    object-fit: contain;
+    width: 18rem;
+    height: 20rem;
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  html {
+    font-size: 16.5px;
+  }
+}

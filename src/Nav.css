@@ -1,0 +1,7 @@
+
+.navbar-toggler-icon{
+    filter: invert(100);
+}
+#nav{
+    background-color: rgba(235, 186, 186, 0.986)
+}
